@@ -1,0 +1,77 @@
+body
+{
+    background-color: #F8F0E3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.standard-container
+{
+    border: 2px solid darkgray;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: coral;
+    margin: 10px 0;
+}
+#dos
+{
+    border: 2px solid darkgray;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #68d97b;
+}
+#donts
+{
+    border: 2px solid darkgray;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #eb726a;
+}
+.flex-wrapper
+{
+    display: flex;
+    gap: 20px;
+}
+h1, h2, h3
+{
+    text-align: center;
+}
+nav ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+nav a
+{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+footer img
+{
+    width: 50px ;
+}
+table
+{
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: burlywood;
+    font-weight: bold;
+    border-radius: 10px;
+}
+tbody tr
+{
+    border-bottom: 1px solid darkgray;
+}
+.instrument-image
+{
+    width: 50px;
+}
